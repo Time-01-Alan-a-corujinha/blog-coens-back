@@ -13,11 +13,13 @@
   "pluginOptions": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "description": {
       "type": "text",
-      "maxLength": 80
+      "maxLength": 80,
+      "required": true
     },
     "slug": {
       "type": "uid",
