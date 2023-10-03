@@ -28,12 +28,18 @@ npm install
 ```
 
 ## Executando o Projeto
-Após a instalação das dependências, você pode iniciar o servidor de desenvolvimento com o seguinte comando:
+Após a instalação das dependências, você pode iniciar o servidor de desenvolvimento com o seguinte comando para abrir o Painel de conteúdo como administrador:
 
 ```bash
 npm run start
 # or
 yarn start
+```
+
+Para abrir o Painel de Conteúdo como desenvolvedor, execute o seguinte comando:
+
+```bash
+npx strapi develop
 ```
 
 Isso iniciará o servidor do Strapi, que será responsável por gerenciar o conteúdo do site.
