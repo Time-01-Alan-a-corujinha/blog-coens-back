@@ -25,6 +25,8 @@ cd blog-coens-back
 
 ```bash
 npm install
+# or
+yarn
 ```
 
 ## Executando o Projeto
