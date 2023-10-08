@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "usuarios",
+  "info": {
+    "singularName": "usuario",
+    "pluralName": "usuarios",
+    "displayName": "Usuário"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "RA": {
+      "type": "string",
+      "required": true
+    },
+    "Email": {
+      "type": "email",
+      "required": true
+    },
+    "Senha": {
+      "type": "password",
+      "required": true
+    },
+    "RaID": {
+      "type": "uid",
+      "targetField": "RA",
+      "required": true
+    },
+    "Role": {
+      "type": "integer",
+      "max": 3,
+      "min": 1,
+      "required": true
+    },
+    "Posts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::post.post",
+      "mappedBy": "Autor"
+    }
+  }
+}
