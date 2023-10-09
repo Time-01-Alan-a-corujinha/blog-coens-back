@@ -1,58 +1,55 @@
-# 🚀 Getting started with Strapi
+# Readme do Projeto Backend - Novo Site para Curso
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
+Este repositório contém o código-fonte do backend do novo site para o nosso curso, que está sendo desenvolvido para melhorar significativamente a organização, acessibilidade e facilidade de manutenção em comparação com o site anterior. O novo site será uma ferramenta valiosa para estudantes, administradores e professores, permitindo um acesso mais fácil às informações do curso e uma maneira eficaz de divulgar atualizações e novidades.
 
-### `develop`
+## Tecnologias Utilizadas
+- CMS Strapi: Optamos por utilizar o Strapi como nosso CMS (Content Management System) para gerenciar o conteúdo do site de forma flexível e intuitiva.
+- Banco de Dados Supabase: O Supabase é a escolha para o banco de dados, proporcionando escalabilidade e recursos avançados de gerenciamento de dados.
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
+## Configuração do Ambiente
+Para configurar o ambiente de desenvolvimento e instalar as dependências necessárias, siga os passos abaixo:
 
+1. Clone este repositório para o seu ambiente local:
+
+```bash
+git clone https://github.com/Time-01-Alan-a-corujinha/blog-coens-back.git
 ```
-npm run develop
+
+2. Navegue até a pasta do projeto:
+
+```bash
+cd blog-coens-back
+```
+
+3. Execute o comando a seguir para instalar todas as dependências:
+
+```bash
+npm install
 # or
-yarn develop
+yarn
 ```
 
-### `start`
+## Executando o Projeto
+Após a instalação das dependências, você pode iniciar o servidor de desenvolvimento com o seguinte comando para abrir o Painel de conteúdo como administrador:
 
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-start)
-
-```
+```bash
 npm run start
 # or
 yarn start
 ```
 
-### `build`
+Para abrir o Painel de Conteúdo como desenvolvedor, execute o seguinte comando:
 
-Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
-
-```
-npm run build
-# or
-yarn build
+```bash
+npx strapi develop
 ```
 
-## ⚙️ Deployment
+Isso iniciará o servidor do Strapi, que será responsável por gerenciar o conteúdo do site.
 
-Strapi gives you many possible deployment options for your project including [Strapi Cloud](https://cloud.strapi.io). Browse the [deployment section of the documentation](https://docs.strapi.io/dev-docs/deployment) to find the best solution for your use case.
+## Configuração do Banco de Dados
+Certifique-se de configurar corretamente o banco de dados Supabase, definindo as variáveis de ambiente apropriadas para a conexão com o banco de dados.
 
-## 📚 Learn more
+## Contato
+Se você tiver dúvidas ou precisar de ajuda relacionada a este projeto, sinta-se à vontade para entrar em contato com a equipe de desenvolvimento em alanacurujinhat@gmail.com.
 
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://strapi.io/blog) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
-
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
-
-## ✨ Community
-
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
-
----
-
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
-# strapi-base
+Esperamos que este novo backend, combinado com o CMS Strapi e o banco de dados Supabase, proporcione uma solução eficiente e flexível para a gestão de conteúdo do nosso novo site. Obrigado por contribuir para o sucesso deste projeto!
