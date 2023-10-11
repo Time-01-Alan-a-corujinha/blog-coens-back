@@ -112,5 +112,4 @@ build
 .strapi-updater.json
 
 
-.env
-.env.example
+.env*
