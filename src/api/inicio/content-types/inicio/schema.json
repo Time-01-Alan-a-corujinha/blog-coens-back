@@ -1,0 +1,74 @@
+{
+  "kind": "singleType",
+  "collectionName": "inicios",
+  "info": {
+    "singularName": "inicio",
+    "pluralName": "inicios",
+    "displayName": "Início",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "descricao": {
+      "type": "richtext"
+    },
+    "videoInstitucional": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "tipoCurso": {
+      "type": "string"
+    },
+    "modalidade": {
+      "type": "string"
+    },
+    "duracao": {
+      "type": "string"
+    },
+    "Turno": {
+      "type": "string"
+    },
+    "Campus": {
+      "type": "string"
+    },
+    "numeroDeVagas": {
+      "type": "string"
+    },
+    "formaDeIngresso": {
+      "type": "string"
+    },
+    "conceito": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "guiaEstadao": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "titulo": {
+      "type": "string"
+    }
+  }
+}
