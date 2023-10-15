@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "post_approvals",
+  "info": {
+    "singularName": "post-approval",
+    "pluralName": "post-approvals",
+    "displayName": "PostApprovals"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ApprovalID": {
+      "type": "uid",
+      "required": true
+    },
+    "PostID": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::blog.blog",
+      "inversedBy": "post_approval"
+    },
+    "ApproverUserID": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "post_approvals"
+    },
+    "ApprovalDate": {
+      "type": "datetime",
+      "required": true
+    }
+  }
+}

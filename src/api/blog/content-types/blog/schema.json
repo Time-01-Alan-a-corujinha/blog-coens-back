@@ -4,7 +4,8 @@
   "info": {
     "singularName": "blog",
     "pluralName": "blogs",
-    "displayName": "blog"
+    "displayName": "NewPosts",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,18 +19,31 @@
       "type": "richtext"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "slug": {
       "type": "uid",
       "targetField": "name"
+    },
+    "comments": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::comment.comment",
+      "mappedBy": "RelatedPost"
+    },
+    "post_approval": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::post-approval.post-approval",
+      "mappedBy": "PostID"
     }
   }
 }
