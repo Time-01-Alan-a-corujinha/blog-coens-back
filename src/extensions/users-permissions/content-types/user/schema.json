@@ -69,12 +69,6 @@
       "type": "uid",
       "required": true
     },
-    "comments": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::comment.comment",
-      "mappedBy": "CommentAuthor"
-    },
     "post_approvals": {
       "type": "relation",
       "relation": "oneToMany",

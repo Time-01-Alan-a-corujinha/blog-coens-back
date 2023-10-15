@@ -28,10 +28,10 @@
       "target": "api::blog.blog",
       "inversedBy": "comments"
     },
-    "CommentAuthor": {
+    "usuario": {
       "type": "relation",
       "relation": "manyToOne",
-      "target": "plugin::users-permissions.user",
+      "target": "api::usuario.usuario",
       "inversedBy": "comments"
     }
   }
