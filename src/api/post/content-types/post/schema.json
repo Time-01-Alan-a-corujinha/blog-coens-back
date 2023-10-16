@@ -4,7 +4,8 @@
   "info": {
     "singularName": "post",
     "pluralName": "posts",
-    "displayName": "Post"
+    "displayName": "Post",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -45,14 +46,15 @@
       "required": true
     },
     "Midias": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
       ],
-      "type": "media",
-      "multiple": true,
       "pluginOptions": {
         "i18n": {
           "localized": false
@@ -69,11 +71,23 @@
       "default": false,
       "required": true
     },
-    "Autor": {
+    "post_approval": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::post-approval.post-approval",
+      "inversedBy": "postID"
+    },
+    "comments": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::comment.comment",
+      "mappedBy": "Relatedpost"
+    },
+    "Post_Author": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::usuario.usuario",
-      "inversedBy": "Posts"
+      "inversedBy": "posts"
     }
   }
 }

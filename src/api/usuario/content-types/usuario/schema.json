@@ -4,7 +4,8 @@
   "info": {
     "singularName": "usuario",
     "pluralName": "usuarios",
-    "displayName": "Usuário"
+    "displayName": "Usuário",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -34,11 +35,23 @@
       "min": 1,
       "required": true
     },
-    "Posts": {
+    "posts": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::post.post",
-      "mappedBy": "Autor"
+      "mappedBy": "Post_Author"
+    },
+    "post_approvals": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::post-approval.post-approval",
+      "mappedBy": "User_Approver"
+    },
+    "comments": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::comment.comment",
+      "mappedBy": "CommentAuthor"
     }
   }
 }
