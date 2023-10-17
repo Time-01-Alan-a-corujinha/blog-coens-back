@@ -25,6 +25,9 @@
     },
     "courseTitle": {
       "type": "string"
+    },
+    "courseLink": {
+      "type": "string"
     }
   }
 }
