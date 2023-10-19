@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "logomarcas",
+  "info": {
+    "singularName": "logomarca",
+    "pluralName": "logomarcas",
+    "displayName": "Logomarca"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logomarca": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
