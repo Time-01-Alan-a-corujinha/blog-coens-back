@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "horario_e_calendarios",
+  "info": {
+    "singularName": "horario-e-calendario",
+    "pluralName": "horario-e-calendarios",
+    "displayName": "HorarioECalendario"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "horarioECalendario": {
+      "type": "component",
+      "repeatable": true,
+      "component": "componentes-base.horario-e-calendario"
+    }
+  }
+}
