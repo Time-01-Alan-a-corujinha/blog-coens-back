@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_componentes_base_horario_e_calendarios",
+  "info": {
+    "displayName": "HorarioECalendario"
+  },
+  "options": {},
+  "attributes": {
+    "ano": {
+      "type": "string"
+    },
+    "horario1Semestre": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "horario2Semestre": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "calendarioResumido": {
+      "type": "string"
+    },
+    "calendarioCompleto": {
+      "type": "string"
+    }
+  }
+}

@@ -14,7 +14,7 @@
   "attributes": {
     "descricao": {
       "type": "richtext"
-    },
+    }, 
     "videoInstitucional": {
       "type": "media",
       "multiple": false,
@@ -46,26 +46,6 @@
     },
     "formaDeIngresso": {
       "type": "string"
-    },
-    "conceito": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
-    },
-    "guiaEstadao": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
     },
     "titulo": {
       "type": "string"
