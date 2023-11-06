@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pos_graduacaos",
+  "info": {
+    "singularName": "pos-graduacao",
+    "pluralName": "pos-graduacaos",
+    "displayName": "Pós-Graduação"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tituloDoCurso": {
+      "type": "string"
+    },
+    "imagemDoCurso": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "linkDoCurso": {
+      "type": "string"
+    }
+  }
+}
