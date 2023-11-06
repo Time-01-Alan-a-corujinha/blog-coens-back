@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_atividade_e_producao_projetos_de_extensaos",
+  "info": {
+    "displayName": "ProjetosDeExtensao"
+  },
+  "options": {},
+  "attributes": {
+    "tituloProjeto": {
+      "type": "string"
+    },
+    "descricaoProjeto": {
+      "type": "richtext"
+    },
+    "linkProjeto": {
+      "type": "string"
+    }
+  }
+}

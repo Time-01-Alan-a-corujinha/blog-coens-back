@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "atividades_e_producao_producao_academicas",
+  "info": {
+    "singularName": "atividades-e-producao-producao-academica",
+    "pluralName": "atividades-e-producao-producao-academicas",
+    "displayName": "Atividades e Produção/Produçao Acadêmica"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "richtext"
+    },
+    "link": {
+      "type": "string"
+    },
+    "ProducoesTCC": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atividade-e-producao.producoes-academicas"
+    }
+  }
+}

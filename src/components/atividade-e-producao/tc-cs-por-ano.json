@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_atividade_e_producao_tc_cs_por_anos",
+  "info": {
+    "displayName": "TCCsPorAcademico",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "academico": {
+      "type": "string"
+    },
+    "orientadores": {
+      "type": "text"
+    },
+    "anoESemestre": {
+      "type": "string"
+    },
+    "tituloDoTrabalho": {
+      "type": "string"
+    },
+    "linkDoTrabalho": {
+      "type": "string"
+    }
+  }
+}
