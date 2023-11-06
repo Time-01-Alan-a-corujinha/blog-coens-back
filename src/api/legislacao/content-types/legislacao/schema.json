@@ -4,7 +4,8 @@
   "info": {
     "singularName": "legislacao",
     "pluralName": "legislacaos",
-    "displayName": "Legislacao"
+    "displayName": "Outros/Legislação",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true

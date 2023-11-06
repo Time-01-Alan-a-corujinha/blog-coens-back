@@ -4,7 +4,8 @@
   "info": {
     "singularName": "horario-e-calendario",
     "pluralName": "horario-e-calendarios",
-    "displayName": "HorarioECalendario"
+    "displayName": "Outros/Horario E Calendário",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,7 +18,7 @@
     "horarioECalendario": {
       "type": "component",
       "repeatable": true,
-      "component": "componentes-base.horario-e-calendario"
+      "component": "outros.horario-e-calendario"
     }
   }
 }

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_atividade_e_producao_grupos_de_pesquisas",
+  "info": {
+    "displayName": "GruposDePesquisa",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tituloGrupo": {
+      "type": "string"
+    },
+    "descricaoGrupo": {
+      "type": "richtext"
+    },
+    "linkGrupo": {
+      "type": "string"
+    }
+  }
+}

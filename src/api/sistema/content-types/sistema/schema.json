@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sistemas",
+  "info": {
+    "singularName": "sistema",
+    "pluralName": "sistemas",
+    "displayName": "Sistemas/Sites",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Site": {
+      "type": "component",
+      "repeatable": true,
+      "component": "componentes-base.titulo-e-link"
+    }
+  }
+}
