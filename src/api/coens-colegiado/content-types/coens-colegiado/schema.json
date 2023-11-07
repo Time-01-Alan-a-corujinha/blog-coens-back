@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "coens_colegiados",
+  "info": {
+    "singularName": "coens-colegiado",
+    "pluralName": "coens-colegiados",
+    "displayName": "COENS/Colegiado"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "richtext"
+    },
+    "RegulamentoColegiado": {
+      "type": "component",
+      "repeatable": true,
+      "component": "componentes-base.texto-e-midia"
+    },
+    "membrosColegiado": {
+      "type": "richtext"
+    },
+    "AtasColegiado": {
+      "displayName": "AnoAtasColegiado",
+      "type": "component",
+      "repeatable": true,
+      "component": "coens.ano-atas-colegiado"
+    }
+  }
+}

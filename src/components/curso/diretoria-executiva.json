@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_curso_diretoria_executivas",
+  "info": {
+    "displayName": "DiretoriaExecutiva"
+  },
+  "options": {},
+  "attributes": {
+    "presidente": {
+      "type": "string"
+    },
+    "vicePresidente": {
+      "type": "string"
+    },
+    "secretario": {
+      "type": "string"
+    },
+    "tesoureiro": {
+      "type": "string"
+    }
+  }
+}

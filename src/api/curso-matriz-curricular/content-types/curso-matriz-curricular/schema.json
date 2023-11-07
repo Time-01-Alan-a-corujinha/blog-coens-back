@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "curso_matriz_curriculars",
+  "info": {
+    "singularName": "curso-matriz-curricular",
+    "pluralName": "curso-matriz-curriculars",
+    "displayName": "Curso/Matriz Curricular"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "MatrizCurricular": {
+      "type": "component",
+      "repeatable": true,
+      "component": "curso.matriz-curricular"
+    }
+  }
+}

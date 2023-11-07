@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_curso_diretoria_caes",
+  "info": {
+    "displayName": "DiretoriaCAES"
+  },
+  "options": {},
+  "attributes": {
+    "Diretoria": {
+      "displayName": "DiretoriaExecutiva",
+      "type": "component",
+      "repeatable": false,
+      "component": "curso.diretoria-executiva"
+    },
+    "diretorDeAssuntosAcademicos": {
+      "type": "string"
+    },
+    "diretorDeMovimentoEstudantil": {
+      "type": "string"
+    },
+    "diretorDeComunicacao": {
+      "type": "string"
+    },
+    "diretorDeEventosDesportivosECulturais": {
+      "type": "string"
+    }
+  }
+}

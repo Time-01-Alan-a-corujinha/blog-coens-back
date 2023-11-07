@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_componentes_base_midias",
+  "info": {
+    "displayName": "Midia"
+  },
+  "options": {},
+  "attributes": {
+    "media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "legenda": {
+      "type": "string"
+    }
+  }
+}

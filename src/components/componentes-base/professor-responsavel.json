@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_componentes_base_professor_responsavels",
+  "info": {
+    "displayName": "ProfessorResponsavel"
+  },
+  "options": {},
+  "attributes": {
+    "nomeProf": {
+      "type": "string"
+    },
+    "emailProf": {
+      "type": "string"
+    },
+    "telefoneProf": {
+      "type": "string"
+    },
+    "emailUniversidade": {
+      "type": "string"
+    },
+    "linkDeAjuda": {
+      "type": "string"
+    }
+  }
+}

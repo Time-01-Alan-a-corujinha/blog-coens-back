@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_componentes_base_topicos",
+  "info": {
+    "displayName": "Topico",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "TextoELink": {
+      "type": "component",
+      "repeatable": true,
+      "component": "componentes-base.texto-e-link"
+    }
+  }
+}

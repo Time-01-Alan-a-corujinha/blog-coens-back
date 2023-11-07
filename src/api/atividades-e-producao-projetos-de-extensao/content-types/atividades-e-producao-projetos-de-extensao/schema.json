@@ -1,10 +1,11 @@
 {
-  "kind": "collectionType",
+  "kind": "singleType",
   "collectionName": "atividades_e_producao_projetos_de_extensaos",
   "info": {
     "singularName": "atividades-e-producao-projetos-de-extensao",
     "pluralName": "atividades-e-producao-projetos-de-extensaos",
-    "displayName": "Atividades e Produção/Projetos de Extensão"
+    "displayName": "Atividades e Produção/Projetos de Extensão",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,10 +15,10 @@
     "titulo": {
       "type": "string"
     },
-    "projetos": {
+    "ProjetoDeExtensao": {
       "type": "component",
       "repeatable": true,
-      "component": "atividade-e-producao.projetos-de-extensao"
+      "component": "atividade-e-producao.info-item"
     }
   }
 }

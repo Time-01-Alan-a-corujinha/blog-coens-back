@@ -1,0 +1,47 @@
+{
+  "kind": "singleType",
+  "collectionName": "curso_internacionalizacaos",
+  "info": {
+    "singularName": "curso-internacionalizacao",
+    "pluralName": "curso-internacionalizacaos",
+    "displayName": "Curso/Internacionalização"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "richtext"
+    },
+    "Imagens": {
+      "displayName": "Midia",
+      "type": "component",
+      "repeatable": true,
+      "component": "componentes-base.midia"
+    },
+    "EditaisDuplaDiplomacaoAnteriores": {
+      "type": "component",
+      "repeatable": true,
+      "component": "componentes-base.topico"
+    },
+    "EditaisMobilidadeEstudantilAnteriores": {
+      "type": "component",
+      "repeatable": true,
+      "component": "componentes-base.topico"
+    },
+    "LinksImportantes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "componentes-base.topico"
+    },
+    "professorResponsavelInternacionalizacao": {
+      "type": "component",
+      "repeatable": false,
+      "component": "componentes-base.professor-responsavel"
+    }
+  }
+}

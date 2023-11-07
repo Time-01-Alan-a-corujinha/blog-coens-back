@@ -4,18 +4,12 @@
   "info": {
     "singularName": "sistema",
     "pluralName": "sistemas",
-    "displayName": "Sistemas/Sites",
+    "displayName": "Sistemas",
     "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
-  "attributes": {
-    "Site": {
-      "type": "component",
-      "repeatable": true,
-      "component": "componentes-base.titulo-e-link"
-    }
-  }
+  "attributes": {}
 }

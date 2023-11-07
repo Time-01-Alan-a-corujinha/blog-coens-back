@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_curso_matriz_curriculars",
+  "info": {
+    "displayName": "MatrizCurricular"
+  },
+  "options": {},
+  "attributes": {
+    "tituloMatriz": {
+      "type": "string"
+    },
+    "subtituloMatriz": {
+      "type": "string"
+    },
+    "imagemMatriz": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "projetoPedagogicoPDF": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "curso_estagio_curriculars",
+  "info": {
+    "singularName": "curso-estagio-curricular",
+    "pluralName": "curso-estagio-curriculars",
+    "displayName": "Curso/Estágio Curricular"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "richtext"
+    },
+    "PerguntasEstagio": {
+      "displayName": "PerguntasEstagioObrigatorio",
+      "type": "component",
+      "repeatable": true,
+      "component": "curso.perguntas-estagio-obrigatorio"
+    },
+    "EditalInfo": {
+      "displayName": "EditalEstagioInfo",
+      "type": "component",
+      "repeatable": true,
+      "component": "curso.edital-estagio-info"
+    },
+    "ProfessorResponsavelEstagio": {
+      "type": "component",
+      "repeatable": false,
+      "component": "componentes-base.professor-responsavel"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "coens_nucleo_docente_estruturantes",
+  "info": {
+    "singularName": "coens-nucleo-docente-estruturante",
+    "pluralName": "coens-nucleo-docente-estruturantes",
+    "displayName": "COENS/Núcleo Docente Estruturante",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "richtext"
+    },
+    "RegulamentoNDEs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "componentes-base.texto-e-midia"
+    },
+    "AtasNDE": {
+      "type": "component",
+      "repeatable": true,
+      "component": "componentes-base.topico"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_curso_edital_estagio_infos",
+  "info": {
+    "displayName": "EditalEstagioInfo"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "richtext"
+    },
+    "editalEstagioPDF": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

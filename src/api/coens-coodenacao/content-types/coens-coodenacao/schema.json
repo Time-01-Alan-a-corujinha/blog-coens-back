@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "coens_coodenacaos",
+  "info": {
+    "singularName": "coens-coodenacao",
+    "pluralName": "coens-coodenacaos",
+    "displayName": "COENS/Coodenação"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "richtext"
+    },
+    "Coordenador": {
+      "displayName": "Professor",
+      "type": "component",
+      "repeatable": false,
+      "component": "coens.professor"
+    },
+    "CoordenadorSubst": {
+      "type": "component",
+      "repeatable": false,
+      "component": "coens.professor"
+    },
+    "AtasCoordenacao": {
+      "type": "component",
+      "repeatable": true,
+      "component": "componentes-base.topico"
+    }
+  }
+}

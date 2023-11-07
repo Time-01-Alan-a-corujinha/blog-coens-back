@@ -1,11 +1,10 @@
 {
-  "kind": "collectionType",
+  "kind": "singleType",
   "collectionName": "atividades_e_producao_grupos_de_pesquisas",
   "info": {
     "singularName": "atividades-e-producao-grupos-de-pesquisa",
     "pluralName": "atividades-e-producao-grupos-de-pesquisas",
-    "displayName": "Atividades e Produção/Grupos de Pesquisa",
-    "description": ""
+    "displayName": "Atividades e Produção/Grupos de Pesquisa"
   },
   "options": {
     "draftAndPublish": true
@@ -15,10 +14,10 @@
     "titulo": {
       "type": "string"
     },
-    "Grupos": {
+    "GrupoDePesquisa": {
       "type": "component",
       "repeatable": true,
-      "component": "atividade-e-producao.grupos-de-pesquisa"
+      "component": "atividade-e-producao.info-item"
     }
   }
 }
