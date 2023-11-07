@@ -4,7 +4,8 @@
   "info": {
     "singularName": "coens-colegiado",
     "pluralName": "coens-colegiados",
-    "displayName": "COENS/Colegiado"
+    "displayName": "COENS/Colegiado",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,11 +18,6 @@
     "descricao": {
       "type": "richtext"
     },
-    "RegulamentoColegiado": {
-      "type": "component",
-      "repeatable": true,
-      "component": "componentes-base.texto-e-midia"
-    },
     "membrosColegiado": {
       "type": "richtext"
     },
@@ -30,6 +26,11 @@
       "type": "component",
       "repeatable": true,
       "component": "coens.ano-atas-colegiado"
+    },
+    "RegulamentoColegiado": {
+      "type": "component",
+      "repeatable": true,
+      "component": "componentes-base.texto-e-link"
     }
   }
 }
