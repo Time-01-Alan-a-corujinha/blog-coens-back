@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "curso_descricao_do_cursos",
+  "info": {
+    "singularName": "curso-descricao-do-curso",
+    "pluralName": "curso-descricao-do-cursos",
+    "displayName": "Curso/Descrição do Curso"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "richtext"
+    },
+    "projetoPedagogicoPDF": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

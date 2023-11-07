@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "curso_centro_academicos",
+  "info": {
+    "singularName": "curso-centro-academico",
+    "pluralName": "curso-centro-academicos",
+    "displayName": "Curso/Centro Acadêmico",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "richtext"
+    },
+    "logoCAES": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Diretoria": {
+      "type": "component",
+      "repeatable": false,
+      "component": "curso.diretoria-caes"
+    }
+  }
+}

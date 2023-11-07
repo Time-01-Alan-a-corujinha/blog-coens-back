@@ -1,0 +1,62 @@
+{
+  "kind": "singleType",
+  "collectionName": "curso_trabalho_de_conclusao_de_cursos",
+  "info": {
+    "singularName": "curso-trabalho-de-conclusao-de-curso",
+    "pluralName": "curso-trabalho-de-conclusao-de-cursos",
+    "displayName": "Curso/Trabalho de Conclusão de Curso"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "richtext"
+    },
+    "Regulamentos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "componentes-base.topico"
+    },
+    "Sistemas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "componentes-base.topico"
+    },
+    "ManualDeExecucao": {
+      "displayName": "TextoEMidia",
+      "type": "component",
+      "repeatable": true,
+      "component": "componentes-base.texto-e-midia"
+    },
+    "Anexos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "componentes-base.texto-e-midia"
+    },
+    "DocumentosParaEntregaFinalTCC2": {
+      "type": "component",
+      "repeatable": true,
+      "component": "componentes-base.topico"
+    },
+    "fluxoTCC": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "ProfessorResponsavelTCC": {
+      "type": "component",
+      "repeatable": false,
+      "component": "componentes-base.professor-responsavel"
+    }
+  }
+}

@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "pos_graduacaos",
+  "collectionName": "coens_docentes",
   "info": {
-    "singularName": "pos-graduacao",
-    "pluralName": "pos-graduacaos",
-    "displayName": "Pós Graduação"
+    "singularName": "coens-docente",
+    "pluralName": "coens-docentes",
+    "displayName": "COENS/Docente"
   },
   "options": {
     "draftAndPublish": true
@@ -14,10 +14,10 @@
     "titulo": {
       "type": "string"
     },
-    "CursoPosGrauduacao": {
+    "Professores": {
       "type": "component",
       "repeatable": true,
-      "component": "pos-graduacao.curso-pos-graduacao"
+      "component": "coens.professor"
     }
   }
 }

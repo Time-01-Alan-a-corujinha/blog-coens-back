@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_curso_perguntas_estagio_obrigatorios",
+  "info": {
+    "displayName": "PerguntasEstagioObrigatorio"
+  },
+  "options": {},
+  "attributes": {
+    "pergunta": {
+      "type": "string"
+    },
+    "descricaoResposta": {
+      "type": "richtext"
+    },
+    "titulo": {
+      "type": "string"
+    }
+  }
+}

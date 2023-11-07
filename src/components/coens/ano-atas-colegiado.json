@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_coens_ano_atas_colegiados",
+  "info": {
+    "displayName": "AnoAtasColegiado"
+  },
+  "options": {},
+  "attributes": {
+    "ano": {
+      "type": "string"
+    },
+    "TextoELink": {
+      "type": "component",
+      "repeatable": true,
+      "component": "componentes-base.texto-e-link"
+    }
+  }
+}

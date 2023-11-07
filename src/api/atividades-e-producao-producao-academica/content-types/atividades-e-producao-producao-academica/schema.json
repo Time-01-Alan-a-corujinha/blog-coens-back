@@ -19,11 +19,6 @@
     },
     "link": {
       "type": "string"
-    },
-    "ProducoesTCC": {
-      "type": "component",
-      "repeatable": true,
-      "component": "atividade-e-producao.producoes-academicas"
     }
   }
 }

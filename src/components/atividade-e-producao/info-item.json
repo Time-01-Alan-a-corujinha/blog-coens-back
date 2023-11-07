@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_atividade_e_producao_info_items",
+  "info": {
+    "displayName": "InfoItem"
+  },
+  "options": {},
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "richtext"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

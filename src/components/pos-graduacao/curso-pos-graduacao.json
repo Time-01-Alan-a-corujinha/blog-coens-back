@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_pos_graduacao_curso_pos_graduacaos",
+  "info": {
+    "displayName": "CursoPosGraduacao"
+  },
+  "options": {},
+  "attributes": {
+    "nomeDoCurso": {
+      "type": "string"
+    },
+    "imagemDoCurso": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "linkDoCurso": {
+      "type": "string"
+    }
+  }
+}
