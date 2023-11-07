@@ -26,7 +26,7 @@
     "AtasNDE": {
       "type": "component",
       "repeatable": true,
-      "component": "componentes-base.topico"
+      "component": "componentes-base.texto-e-midia"
     }
   }
 }
