@@ -4,7 +4,8 @@
   "info": {
     "singularName": "pos-graduacao",
     "pluralName": "pos-graduacaos",
-    "displayName": "Pós Graduação"
+    "displayName": "Pós Graduação",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,7 +15,7 @@
     "titulo": {
       "type": "string"
     },
-    "CursoPosGrauduacao": {
+    "CursoPosGraduacao": {
       "type": "component",
       "repeatable": true,
       "component": "pos-graduacao.curso-pos-graduacao"
