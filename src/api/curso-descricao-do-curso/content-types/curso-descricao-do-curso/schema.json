@@ -4,7 +4,8 @@
   "info": {
     "singularName": "curso-descricao-do-curso",
     "pluralName": "curso-descricao-do-cursos",
-    "displayName": "Curso/Descrição do Curso"
+    "displayName": "Curso/Descrição do Curso",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,15 +18,10 @@
     "descricao": {
       "type": "richtext"
     },
-    "projetoPedagogicoPDF": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
+    "projetoPedagogico": {
+      "type": "component",
+      "repeatable": false,
+      "component": "componentes-base.texto-e-midia"
     }
   }
 }

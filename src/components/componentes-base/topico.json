@@ -9,10 +9,10 @@
     "titulo": {
       "type": "string"
     },
-    "TextoELink": {
+    "atas": {
       "type": "component",
       "repeatable": true,
-      "component": "componentes-base.texto-e-link"
+      "component": "componentes-base.texto-e-midia"
     }
   }
 }
