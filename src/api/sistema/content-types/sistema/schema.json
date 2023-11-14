@@ -4,12 +4,18 @@
   "info": {
     "singularName": "sistema",
     "pluralName": "sistemas",
-    "displayName": "Sistemas",
-    "description": ""
+    "displayName": "Sistema"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
-  "attributes": {}
+  "attributes": {
+    "nomeSistema": {
+      "type": "string"
+    },
+    "linkSistema": {
+      "type": "string"
+    }
+  }
 }
