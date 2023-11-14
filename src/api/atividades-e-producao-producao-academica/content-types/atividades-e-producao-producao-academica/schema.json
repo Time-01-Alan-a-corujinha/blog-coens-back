@@ -4,7 +4,8 @@
   "info": {
     "singularName": "atividades-e-producao-producao-academica",
     "pluralName": "atividades-e-producao-producao-academicas",
-    "displayName": "Atividades e Produção/Produçao Acadêmica"
+    "displayName": "Atividades e Produção/Produçao Acadêmica",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,6 +20,11 @@
     },
     "link": {
       "type": "string"
+    },
+    "producoesAcademicasPorAno": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atividade-e-producao.producoes-academicas"
     }
   }
 }

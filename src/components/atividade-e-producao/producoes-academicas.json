@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_atividade_e_producao_producoes_academicas",
+  "info": {
+    "displayName": "ProducoesAcademicas"
+  },
+  "options": {},
+  "attributes": {
+    "ano": {
+      "type": "string"
+    },
+    "academicosTCC": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atividade-e-producao.tc-cs-por-ano"
+    }
+  }
+}
