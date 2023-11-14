@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_curso_documentos_para_entrega_final_tcc_2s",
+  "info": {
+    "displayName": "DocumentosParaEntregaFinalTCC2"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
