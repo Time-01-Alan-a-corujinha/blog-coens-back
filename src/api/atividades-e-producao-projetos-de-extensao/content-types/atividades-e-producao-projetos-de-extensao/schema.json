@@ -4,8 +4,7 @@
   "info": {
     "singularName": "atividades-e-producao-projetos-de-extensao",
     "pluralName": "atividades-e-producao-projetos-de-extensaos",
-    "displayName": "Atividades e Produção/Projetos de Extensão",
-    "description": ""
+    "displayName": "Atividades e Produção/Projetos de Extensão"
   },
   "options": {
     "draftAndPublish": true
