@@ -4,7 +4,8 @@
   "info": {
     "singularName": "curso-trabalho-de-conclusao-de-curso",
     "pluralName": "curso-trabalho-de-conclusao-de-cursos",
-    "displayName": "Curso/Trabalho de Conclusão de Curso"
+    "displayName": "Curso/Trabalho de Conclusão de Curso",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -44,14 +45,15 @@
       "component": "componentes-base.topico"
     },
     "fluxoTCC": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "ProfessorResponsavelTCC": {
       "type": "component",

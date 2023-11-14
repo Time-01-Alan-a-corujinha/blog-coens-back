@@ -9,10 +9,11 @@
     "titulo": {
       "type": "string"
     },
-    "atas": {
+    "DocumentosTCC2": {
+      "displayName": "DocumentosParaEntregaFinalTCC2",
       "type": "component",
       "repeatable": true,
-      "component": "componentes-base.texto-e-midia"
+      "component": "curso.documentos-para-entrega-final-tcc-2"
     }
   }
 }
