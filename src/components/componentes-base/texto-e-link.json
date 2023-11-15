@@ -1,15 +1,16 @@
 {
   "collectionName": "components_componentes_base_texto_e_links",
   "info": {
-    "displayName": "TextoELink"
+    "displayName": "TextoELink",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "texto": {
-      "type": "string"
+      "type": "text"
     },
     "link": {
-      "type": "string"
+      "type": "text"
     }
   }
 }
