@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_curso_perguntas_estagios",
+  "info": {
+    "displayName": "PerguntasEstagio"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "DocsPerguntas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "componentes-base.texto-e-midia"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_curso_sistemas_estagios",
+  "info": {
+    "displayName": "sistemasEstagio"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "linksSistemas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "componentes-base.texto-e-link"
+    }
+  }
+}

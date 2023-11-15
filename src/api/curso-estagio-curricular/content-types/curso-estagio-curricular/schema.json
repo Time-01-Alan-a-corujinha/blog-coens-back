@@ -4,7 +4,8 @@
   "info": {
     "singularName": "curso-estagio-curricular",
     "pluralName": "curso-estagio-curriculars",
-    "displayName": "Curso/Estágio Curricular"
+    "displayName": "Curso/Estágio Curricular",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,12 +18,6 @@
     "descricao": {
       "type": "richtext"
     },
-    "PerguntasEstagio": {
-      "displayName": "PerguntasEstagioObrigatorio",
-      "type": "component",
-      "repeatable": true,
-      "component": "curso.perguntas-estagio-obrigatorio"
-    },
     "EditalInfo": {
       "displayName": "EditalEstagioInfo",
       "type": "component",
@@ -33,6 +28,23 @@
       "type": "component",
       "repeatable": false,
       "component": "componentes-base.professor-responsavel"
+    },
+    "NormasRegulamentos": {
+      "displayName": "NormasEstagio",
+      "type": "component",
+      "repeatable": false,
+      "component": "curso.normas-estagio"
+    },
+    "SistemasEstagioCurricular": {
+      "type": "component",
+      "repeatable": true,
+      "component": "curso.sistemas-estagio"
+    },
+    "PerguntasEstagioCurricular": {
+      "displayName": "PerguntasEstagio",
+      "type": "component",
+      "repeatable": true,
+      "component": "curso.perguntas-estagio"
     }
   }
 }
