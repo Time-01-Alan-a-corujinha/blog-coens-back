@@ -9,10 +9,10 @@
     "titulo": {
       "type": "string"
     },
-    "sistemasTCC": {
+    "sis": {
       "type": "component",
       "repeatable": true,
-      "component": "componentes-base.texto-e-midia"
+      "component": "componentes-base.texto-e-link"
     }
   }
 }
