@@ -9,7 +9,7 @@
     "ano": {
       "type": "string"
     },
-    "TextoEMidia": {
+    "AtasDoColegiado": {
       "type": "component",
       "repeatable": true,
       "component": "componentes-base.texto-e-midia"

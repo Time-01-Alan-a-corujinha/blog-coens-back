@@ -1,16 +1,14 @@
 {
-  "collectionName": "components_componentes_base_topicos",
+  "collectionName": "components_curso_sistema_atividades",
   "info": {
-    "displayName": "Topico",
-    "description": ""
+    "displayName": "SistemaAtividades"
   },
   "options": {},
   "attributes": {
     "titulo": {
       "type": "string"
     },
-    "TextoELink": {
-      "displayName": "sistemaAC",
+    "linksSistemas": {
       "type": "component",
       "repeatable": true,
       "component": "curso.sistema-ac"

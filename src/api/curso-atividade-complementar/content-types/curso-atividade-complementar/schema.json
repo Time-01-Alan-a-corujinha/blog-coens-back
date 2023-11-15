@@ -18,20 +18,22 @@
     "descricao": {
       "type": "richtext"
     },
-    "Regulamentos": {
-      "type": "component",
-      "repeatable": true,
-      "component": "componentes-base.topico"
-    },
-    "SistemaAC": {
-      "type": "component",
-      "repeatable": true,
-      "component": "componentes-base.topico"
-    },
     "ProfessorResponsavelAC": {
       "type": "component",
       "repeatable": false,
       "component": "componentes-base.professor-responsavel"
+    },
+    "RegulamentosAtividadesComplementares": {
+      "displayName": "RegulamentoAtividade",
+      "type": "component",
+      "repeatable": true,
+      "component": "curso.regulamento-atividade"
+    },
+    "SistemasAtividadesComplementares": {
+      "displayName": "SistemaAtividades",
+      "type": "component",
+      "repeatable": true,
+      "component": "curso.sistema-atividades"
     }
   }
 }

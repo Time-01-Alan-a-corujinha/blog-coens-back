@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_curso_sistema_acs",
+  "info": {
+    "displayName": "sistemaAC"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
