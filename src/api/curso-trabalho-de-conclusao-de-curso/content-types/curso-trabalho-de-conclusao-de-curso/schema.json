@@ -18,11 +18,6 @@
     "descricao": {
       "type": "richtext"
     },
-    "Regulamentos": {
-      "type": "component",
-      "repeatable": true,
-      "component": "componentes-base.topico"
-    },
     "Sistemas": {
       "type": "component",
       "repeatable": true,
@@ -39,11 +34,6 @@
       "repeatable": true,
       "component": "componentes-base.texto-e-midia"
     },
-    "DocumentosParaEntregaFinalTCC2": {
-      "type": "component",
-      "repeatable": true,
-      "component": "componentes-base.topico"
-    },
     "fluxoTCC": {
       "type": "media",
       "multiple": false,
@@ -59,6 +49,18 @@
       "type": "component",
       "repeatable": false,
       "component": "componentes-base.professor-responsavel"
+    },
+    "RegulamentosDoTCC": {
+      "displayName": "RegulamentosTCC",
+      "type": "component",
+      "repeatable": true,
+      "component": "curso.regulamentos-tcc"
+    },
+    "DocumentosEntregaFinal": {
+      "displayName": "DocumentosParaEntregaFinalTCC",
+      "type": "component",
+      "repeatable": false,
+      "component": "curso.documentos-para-entrega-final-tcc"
     }
   }
 }

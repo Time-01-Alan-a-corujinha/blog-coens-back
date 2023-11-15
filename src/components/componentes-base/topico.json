@@ -9,11 +9,10 @@
     "titulo": {
       "type": "string"
     },
-    "TextoELink": {
-      "displayName": "sistemaAC",
+    "sistemasTCC": {
       "type": "component",
       "repeatable": true,
-      "component": "curso.sistema-ac"
+      "component": "componentes-base.texto-e-midia"
     }
   }
 }

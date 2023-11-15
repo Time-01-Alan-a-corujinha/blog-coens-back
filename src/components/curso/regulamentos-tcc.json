@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_curso_regulamentos_tccs",
+  "info": {
+    "displayName": "RegulamentosTCC"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "regulamentosComLink": {
+      "type": "component",
+      "repeatable": true,
+      "component": "componentes-base.texto-e-link"
+    }
+  }
+}
