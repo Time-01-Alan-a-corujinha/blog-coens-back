@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_coens_atas_da_coordenacao_components",
+  "info": {
+    "displayName": "AtasDaCoordenacaoComponent"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "atasDocs": {
+      "displayName": "AtasCoordenacaoDocs",
+      "type": "component",
+      "repeatable": true,
+      "component": "coens.atas-coordenacao-docs"
+    }
+  }
+}

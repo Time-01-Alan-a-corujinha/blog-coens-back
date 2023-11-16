@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_coens_atas_coordenacao_docs",
+  "info": {
+    "displayName": "AtasCoordenacaoDocs"
+  },
+  "options": {},
+  "attributes": {
+    "texto": {
+      "type": "string"
+    },
+    "docsAta": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

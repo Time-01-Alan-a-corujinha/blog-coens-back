@@ -18,11 +18,6 @@
     "descricao": {
       "type": "richtext"
     },
-    "Sistemas": {
-      "type": "component",
-      "repeatable": true,
-      "component": "componentes-base.topico"
-    },
     "ManualDeExecucao": {
       "displayName": "TextoEMidia",
       "type": "component",
@@ -61,6 +56,12 @@
       "type": "component",
       "repeatable": false,
       "component": "curso.documentos-para-entrega-final-tcc"
+    },
+    "SistemasELink": {
+      "displayName": "SistemasTCC",
+      "type": "component",
+      "repeatable": true,
+      "component": "curso.sistemas-tcc"
     }
   }
 }

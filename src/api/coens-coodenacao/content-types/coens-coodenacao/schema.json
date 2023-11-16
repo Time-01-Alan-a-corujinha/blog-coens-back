@@ -29,10 +29,11 @@
       "repeatable": false,
       "component": "coens.professor"
     },
-    "AtasCoordenacao": {
+    "AtasDaCoordenacao": {
+      "displayName": "AtasDaCoordenacaoComponent",
       "type": "component",
       "repeatable": false,
-      "component": "componentes-base.topico"
+      "component": "coens.atas-da-coordenacao-component"
     }
   }
 }
