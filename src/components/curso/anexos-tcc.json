@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_curso_anexos_tccs",
+  "info": {
+    "displayName": "AnexosTCC"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "DocsAnexos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "componentes-base.texto-e-midia"
+    }
+  }
+}
