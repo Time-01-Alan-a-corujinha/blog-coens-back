@@ -4,7 +4,8 @@
   "info": {
     "singularName": "usuario",
     "pluralName": "usuarios",
-    "displayName": "Usuário"
+    "displayName": "Usuário",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -44,6 +45,12 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::comment.comment",
+      "mappedBy": "CommentUser"
+    },
+    "post_approvals": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::post-approval.post-approval",
       "mappedBy": "usuario"
     }
   }

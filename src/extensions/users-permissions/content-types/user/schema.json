@@ -68,12 +68,6 @@
     "UserID": {
       "type": "uid",
       "required": true
-    },
-    "post_approvals": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::post-approval.post-approval",
-      "mappedBy": "ApproverUserID"
     }
   }
 }
