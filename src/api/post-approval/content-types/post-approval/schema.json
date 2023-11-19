@@ -4,7 +4,8 @@
   "info": {
     "singularName": "post-approval",
     "pluralName": "post-approvals",
-    "displayName": "PostApprovals"
+    "displayName": "PostApprovals",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,16 +16,16 @@
       "type": "uid",
       "required": true
     },
-    "PostID": {
+    "post": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "api::blog.blog",
+      "target": "api::post.post",
       "inversedBy": "post_approval"
     },
-    "ApproverUserID": {
+    "usuario": {
       "type": "relation",
       "relation": "manyToOne",
-      "target": "plugin::users-permissions.user",
+      "target": "api::usuario.usuario",
       "inversedBy": "post_approvals"
     },
     "ApprovalDate": {

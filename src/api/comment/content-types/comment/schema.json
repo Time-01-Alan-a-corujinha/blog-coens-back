@@ -22,13 +22,13 @@
     "CommentDate": {
       "type": "datetime"
     },
-    "RelatedPost": {
+    "post": {
       "type": "relation",
       "relation": "manyToOne",
-      "target": "api::blog.blog",
+      "target": "api::post.post",
       "inversedBy": "comments"
     },
-    "usuario": {
+    "CommentUser": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::usuario.usuario",

@@ -32,18 +32,6 @@
     "slug": {
       "type": "uid",
       "targetField": "name"
-    },
-    "comments": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::comment.comment",
-      "mappedBy": "RelatedPost"
-    },
-    "post_approval": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::post-approval.post-approval",
-      "mappedBy": "PostID"
     }
   }
 }
