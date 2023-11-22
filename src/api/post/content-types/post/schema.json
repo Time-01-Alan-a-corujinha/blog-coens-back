@@ -61,16 +61,6 @@
         }
       }
     },
-    "Aprovado": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "type": "boolean",
-      "default": false,
-      "required": true
-    },
     "Autor": {
       "type": "relation",
       "relation": "manyToOne",
