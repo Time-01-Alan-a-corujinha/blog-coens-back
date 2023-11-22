@@ -16,9 +16,6 @@
       "type": "uid",
       "required": true
     },
-    "CommentText": {
-      "type": "text"
-    },
     "CommentDate": {
       "type": "datetime"
     },
@@ -33,6 +30,9 @@
       "relation": "manyToOne",
       "target": "api::usuario.usuario",
       "inversedBy": "comments"
+    },
+    "CommentText": {
+      "type": "richtext"
     }
   }
 }

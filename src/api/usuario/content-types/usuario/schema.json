@@ -52,6 +52,10 @@
       "relation": "oneToMany",
       "target": "api::post-approval.post-approval",
       "mappedBy": "usuario"
+    },
+    "nome": {
+      "type": "text",
+      "required": true
     }
   }
 }
