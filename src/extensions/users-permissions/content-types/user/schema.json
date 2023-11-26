@@ -68,6 +68,12 @@
     "UserID": {
       "type": "uid",
       "required": true
+    },
+    "posts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::post.post",
+      "mappedBy": "author_post"
     }
   }
 }

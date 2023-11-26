@@ -27,12 +27,6 @@
       "relation": "manyToOne",
       "target": "api::post.post",
       "inversedBy": "comments"
-    },
-    "CommentUser": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::usuario.usuario",
-      "inversedBy": "comments"
     }
   }
 }

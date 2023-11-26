@@ -71,23 +71,17 @@
       "default": false,
       "required": true
     },
-    "Autor": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::usuario.usuario",
-      "inversedBy": "Posts"
-    },
-    "post_approval": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::post-approval.post-approval",
-      "mappedBy": "post"
-    },
     "comments": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::comment.comment",
       "mappedBy": "post"
+    },
+    "author_post": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "posts"
     }
   }
 }
